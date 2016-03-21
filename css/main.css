@@ -99,6 +99,7 @@ textarea {
   height: 768px;
   position: absolute;
   padding-top: 0;
+  display:none;
 }
 
 .mainNav b {

@@ -10,3 +10,10 @@ $('.btn-close').click(
     $(this).closest('.content-box').addClass('hide')
   }
 )
+
+$('.start').click(
+  function(){
+    $('.start').hide();
+    $('.background').show();
+  }
+)
