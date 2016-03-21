@@ -134,7 +134,6 @@ textarea {
    }
 
    .content-box {
-     background-color: rgba(0,0,0,0.9);
      position: absolute;
      top: 0;
      right: 0;
@@ -144,7 +143,6 @@ textarea {
      color: white;
      background-color:rgb(54,84,137);
      overflow: scroll;
-     transition: all 1s ease-in-out;
    }
 
    .content-box a {
@@ -170,7 +168,7 @@ textarea {
 }
 
    .hide {
-     transform: translateY(-100%);
+     display: none;
    }
 
    .btn-close {
