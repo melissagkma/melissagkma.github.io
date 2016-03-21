@@ -152,16 +152,21 @@ textarea {
    }
 
    .content-box img {
-     position: absolute;
-     top: 225px;
+
    }
 
 .textbox {
-  position: absolute;
-  /*top: 210px;
-  left: 350px;
-  right: 10px;*/
+
+  margin: 0 auto;
+  width: 500px;
   font-family: 'Avenir', sans-serif;
+}
+
+.textbox h2{
+  margin-top:50px;
+}
+.textbox p{
+  padding: 5px;
 }
 
    .hide {
@@ -170,7 +175,7 @@ textarea {
 
    .btn-close {
      position: absolute;
-     top: 310px;
+     top: 600px;
      right: 100px;
      font-family: Helvetica, Arial, sans-serif;
      text-decoration: none;
