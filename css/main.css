@@ -142,6 +142,7 @@ textarea {
      left: 0;
      padding: 30px;
      color: white;
+     background-color:rgb(54,84,137);
      overflow: scroll;
      transition: all 1s ease-in-out;
    }
